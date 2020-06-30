@@ -1,0 +1,15 @@
+GIT ALLOWS ONE PERSON TO PARTICIPATE IN TEAM DEVELOPMENT
+>  How to share a file?
+1. Initiating : $ git init
+2. Selecting the file lets say index.html : $ git add index.html
+3. Commiting the file : $ git -m commit
+4. Adding the remote in order to upload the file : $ git remote add origin(remote name) url_link(remote URL) 
+5. Uploading the files to a remote : $ git push origin master
+6. Downloading the files from a remote : $ git pull origin master
+** These are the basics of sharing a file and downloading that file .
+** One should always know what files are being shared so that uncomplete file or incorrect code is not shared
+7. To check if there is any changes made : $ git status 
+8. To check the difference or recognizing the changes made :  $ git diff
+9. How to check the commits made by anyone : $ git log
+10. Can i also see what changes done by anyone making the commit : $ git log -p
+** you can use up and lower arrow key to see the commit and changes and press 'Q' to quit
